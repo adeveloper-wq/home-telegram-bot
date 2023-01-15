@@ -1,4 +1,4 @@
-use fritzbox::fritzbox_communication::structs::general::FritzboxCommunication;
+use fritzbox_communication::fritzbox_communication::structs::general::FritzboxCommunication;
 use std::process;
 
 /// Wrapper for the fritzbox_communication object API

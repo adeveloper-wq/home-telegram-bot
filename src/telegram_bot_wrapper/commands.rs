@@ -1,0 +1,12 @@
+use teloxide::{utils::command::BotCommands};
+
+#[derive(BotCommands, Clone)]
+#[command(rename_rule = "lowercase", description = "These commands are supported:")]
+pub enum Command {
+    // Display all possible commands.
+    #[command(description = "display this text.")]
+    Help,
+    // Fritzbox Speedtest.
+    #[command(description = "measures the internet speed.")]
+    SpeedTest,
+}

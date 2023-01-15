@@ -1,5 +1,5 @@
 [package]
-name = "telegram-bot"
+name = "home-telegram-bot"
 version = "0.1.0"
 edition = "2021"
 
